@@ -2,8 +2,7 @@ name: "When updates are pushed or the defined schedule is triggered, scan the co
 
 on:
 
-  push:
-
+ 
  
 
 jobs:
