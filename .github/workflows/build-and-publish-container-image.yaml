@@ -2,7 +2,10 @@ name: "When a release tag is created, build and publish a new version of the con
 
 on:
 
-  create
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
 jobs:
 
