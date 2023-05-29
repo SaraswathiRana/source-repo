@@ -13,8 +13,8 @@ jobs:
     if: startsWith(github.ref, 'refs/tags/v')
 
     env:
-      CONTAINER_REGISTRY: https://267767410086.dkr.ecr.us-east-1.amazonaws.com/jenkins_pipeline
-      CONTAINER_IMAGE: jenkins_pipeline
+      CONTAINER_REGISTRY: https://index.docker.io/jsaraswathi/source-repo
+      CONTAINER_IMAGE: source-repo
 
     steps:
 
